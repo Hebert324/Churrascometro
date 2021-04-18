@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/4b/2d/69/4b2d698fa3044043e6182311aa4a6c90.jpg");
+    background-size: 100%;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.938);
+    padding: 20px;
+    border-radius:10px;
+}
+h1{
+    margin-top:0;
+}
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+button{
+    display: block;
+    margin: auto;
+}
+#resultado{
+    margin-top: 5px;
+}
+@media(max-width:500px){
+    body{
+        background-image: url("https://i.pinimg.com/originals/66/f8/c1/66f8c141e82401bcc82bad752785a324.png");
+        background-size: cover;
+    }
+}
