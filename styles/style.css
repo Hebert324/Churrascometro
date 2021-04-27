@@ -1,17 +1,20 @@
 body{
-    background-image: url("https://i.pinimg.com/originals/4b/2d/69/4b2d698fa3044043e6182311aa4a6c90.jpg");
-    background-size: 100%;
+    background-color: #BF3832;
 }
 .container{
     font-family: Arial, Helvetica, sans-serif;
     max-width: 300px;
-    margin: auto;
+    margin: 300px auto;
     background-color: rgba(255, 255, 255, 0.938);
     padding: 20px;
     border-radius:10px;
+
 }
 h1{
     margin-top:0;
+}
+#title{
+    text-align: center;
 }
 input{
     width: 100%;
@@ -19,10 +22,19 @@ input{
     padding: 5px;
     box-sizing: border-box;
     margin-bottom: 10px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.226);
 }
 button{
     display: block;
     margin: auto;
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 7px 10px 7px 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.226);
 }
 #resultado{
     margin-top: 5px;
